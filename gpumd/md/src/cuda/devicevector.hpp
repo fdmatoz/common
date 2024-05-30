@@ -24,7 +24,6 @@
 #ifndef __devicevector_hpp__
 #define __devicevector_hpp__
 
-#include "../configuration/dev_types.hpp"
 #include "hostvector.hpp"
 
 //std
@@ -33,7 +32,6 @@
 #include <map>
 
 
-#if defined(__CUDA_ENABLE__)
 //thurst
 #include <thrust/device_vector.h>
 #include <thrust/host_vector.h>
@@ -61,16 +59,5 @@ namespace device
         return host_vec;
     }
 }
-#else
-// definitions
-namespace device
-{
-    using namespace std;
-    template <typename T>
-    using vector = std::vector<T>;
 
-    template <typename T>
-    const std::vector<T> copy(std::vector<T>& vec){return vec;}
-}
-#endif
 #endif

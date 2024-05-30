@@ -1,0 +1,5 @@
+/home/danielm/Dropbox/github_copy/activesurface_github/common/gpumd/md/build/CMakeFiles/nvccmodule.dir
+/home/danielm/Dropbox/github_copy/activesurface_github/common/gpumd/md/build/CMakeFiles/edit_cache.dir
+/home/danielm/Dropbox/github_copy/activesurface_github/common/gpumd/md/build/CMakeFiles/rebuild_cache.dir
+/home/danielm/Dropbox/github_copy/activesurface_github/common/gpumd/md/build/external/pybind11/CMakeFiles/edit_cache.dir
+/home/danielm/Dropbox/github_copy/activesurface_github/common/gpumd/md/build/external/pybind11/CMakeFiles/rebuild_cache.dir
